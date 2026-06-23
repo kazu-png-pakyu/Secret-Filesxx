@@ -110,8 +110,18 @@ getgenv().GAG2Config = {
     BUY_CRATE = {},  -- ["Crate Name"] = Amount
 
     -- Auto Mail
-    AUTO_MAIL_USERNAME = {"PunongPogi20"},  -- "Username" (Randomized)
-    AUTO_MAIL_ITEM_NAME = {["Super Watering Can"] = 1, ["Super Sprinkler"] = 1, ["Legendary Sprinkler"] = 1, ["Dragon's Breath"] = 1},  -- ["Item Name"] = Amount
+    AUTO_MAIL = { -- ["Username"] = { ["Item Name"] = Amount }  
+    },
+    ["EMPTYxGG"] = {
+        ["Moon Bloom"] = 1,
+        ["Dragon's Breath"] = 1,
+    },
+    ["PunongPogi20"] = {
+        ["Super Watering Can"] = "All",
+        ["Legendary Sprinkler"] = "All",
+        ["Super Sprinkler"] = "All",
+    },
+},
     COLLECT_MAIL = true,
 
     -- Discord
