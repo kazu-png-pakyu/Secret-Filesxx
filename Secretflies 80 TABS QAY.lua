@@ -1,7 +1,7 @@
-setfpscap(10)
+
 script_key="QAYFurZfdroSykvjtzFJEeeQnPCSDZCT"
 getgenv().GAG2Config = {
-    FPS_CAP = 5,  -- MUST USE 5+ FPS FOR TWEENING
+    FPS_CAP = 8,  -- MUST USE 5+ FPS FOR TWEENING
     AUTO_UPDATE_RESTART = true,
     COLLECT_FRUIT_DELAY = 20,
 
@@ -84,7 +84,7 @@ getgenv().GAG2Config = {
         ["Dragon's Breath"] = 9999,
     },
 
-    COLLECT_PLANT_IF_MUTATED = {"["Mushroom"], ["Bamboo"]"},  -- Only collect fruit when have ANY mutation
+    COLLECT_PLANT_IF_MUTATED = {"Mushroom", "Bamboo"},  -- Only collect fruit when have ANY mutation
     FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} ... or ... ["Fruit Name"] = { "Gold", "Rainbow" }
     SELL_ALL_DAILY_DEAL = false,
     SELL_ALL_DELAY = 20,    
